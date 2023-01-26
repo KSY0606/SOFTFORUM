@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소프트포럼</title>
+    <!-- 부트스트랩 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- 부트스트랩 icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!-- 부트스트랩 js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!-- 공통 css (header, footer) -->
+    <link rel="stylesheet" href="css/common/styleGuide.css">
+    <!-- Laptop css -->
+    <link rel="stylesheet" href="css/index/indexStyle.css">
+    <!-- Mobile css -->
+    <link rel="stylesheet" href="css/index/indexMobile.css">
+
+    <!-- 솔루션 js -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+</head>
+<body>
+    <!-- 건너뛰기 링크 -->
+    <div id="skipNavigation">
+        <a href="#main_img_area">본문 바로가기</a>
+    </div>
+    <!-- // 건너뛰기 링크 -->
+
+    <main>
+        <!-- wrapper area -->
+        <div id="wrapper">
+            <!-- header area -->
+            <header>
+                <nav>
+                    <div>
+                        <a href="index.html">
+                            <img src="images/common/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                </nav>
+            </header>
+            <!-- // header area -->
+
+            <!-- container area -->
+            <div id="container">
+                <!-- mainPage_pic -->
+                <section id="main_img_area">
+                    <!-- Laptop -->
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade laptop_slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/index/main_pic.jpg" class="d-block w-100"alt="메인페이지 대표사진">
+                            </div>
+                            <!--<div class="carousel-item">
+                                <img src="images/index/Solutions_pic1.jpg" class="d-block w-100"alt="메인페이지 대표사진">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/index/main_pic.jpg" class="d-block w-100"alt="메인페이지 대표사진">
+                            </div>-->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- // Laptop -->
+
+                    <!-- Mobile -->
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade mobile_slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/index/main_pic_mobile.jpg" class="d-block w-100"alt="메인페이지 대표사진">
+                            </div>
+                            <!--<div class="carousel-item">
+                                <img src="images/index/Solutions_pic1.jpg" class="d-block w-100"alt="메인페이지 대표사진">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/index/main_pic.jpg" class="d-block w-100"alt="메인페이지 대표사진">
+                            </div>-->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <!-- // Mobile -->
+                </section>
+                <!-- // mainPage_pic -->
+
+                <!-- solutions area -->
+                <section id="solutions_area">
+                    <div id="solutions_title">
+                        <h1>보안 솔루션</h1>
+                        <p>
+                            Zero-Trust 기반 사용자 보안 기술과 데이터 중심 Crypto-Agility 기술로 새롭고 안전한 세상을 만들고자 합니다.
+                        </p>
+                    </div>
+
+                    <div class="container text-center solutions_img">
+                        <div class="row">
+                            <div class="solutions_card_area">
+                                <div class="col solutions_card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                                    <a href="#">
+                                        <div>
+                                            <img src="images/index/Solutions_pic1.jpg" alt="양자 내성 암호">
+                                        </div>
+                                        <div class="solutions_card_content">
+                                            <h4>
+                                                양자 내성 암호
+                                            </h4>
+                                            <p>
+                                                우리는 양자 컴퓨터 시대에도 안전하게 사용할 수 있는 양자 내성 암호기술을 여러분께 제공하고자 합니다.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="solutions_card_area">
+                                <div class="col solutions_card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                                    <a href="#">
+                                        <div>
+                                            <img src="images/index/Solutions_pic2.jpg" alt="클라우드 보안">
+                                        </div>
+                                        <div class="solutions_card_content">
+                                            <h4>
+                                                클라우드 보안
+                                            </h4>
+                                            <p>
+                                                우리는 클라우드 시대에 안전한 관리 방법을 제안할 수 있습니다.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="solutions_card_area">
+                                <div class="col solutions_card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
+                                    <a href="#">
+                                        <div>
+                                            <img src="images/index/Solutions_pic3.jpg" alt="데이터 보안">
+                                        </div>
+                                        <div class="solutions_card_content">
+                                            <h4>
+                                                데이터 보안
+                                            </h4>
+                                            <p>
+                                                중요 데이터의 안전한 저장, 유통, 이용을 위한 포스트퀀텀 데이터 보안 기술을 제공합니다.
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- // solutions area -->
+
+                <!-- introduction area -->
+                <section id="introduction">
+                    <div>
+                        <div>
+                            <h4>
+                                곧 다가올 양자시대, 보안의 위협
+                                <br>
+                                얼마나 준비되셨습니까?
+                            </h4>
+                            <p>
+                                과거의 보안에 머물러 미래의 보안을 준비하지 않는다면 가치를 부여했던 많은 정보와 기술들이 양자컴퓨터 상용화 시대가 도래하는 순간 감당할 수 없는 위협에 직면하게 될 것입니다.
+                                <br>
+                                <br>
+                                현재 사용되고있는  공개키(RSA) 시스템은 계속되는 위협에 직면했으며 양자컴퓨터가 실용화될 경우 더큰 위협을 받게 됩니다. 때문에 기존의 암호 시스템으로는 날로 커지는 위협에 대응할 수 없습니다.이러한 위험을 인지하고 미국 국가 표준 기술원(NIST)는 양자 내성 암호 알고리즘의 표준을 준비하고 있습니다.
+                                2025년부터 양자내성암호(PQC)를 의무적으로 사용하는 것을 시작으로 2035년까지 모든 시스템에 양자내성암호를 적용 완료한다는 계획입니다.
+                                <br>
+                                <br>
+                                이와 같이 지속적으로 발생되는 새로운 위험에 대응할 수 있도록 소프트포럼은 계속해서 노력할 것입니다.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- // introduction area -->
+
+                <!-- youtube -->
+                <section id="youtube">
+                    <div class="container youtube_area">
+                        <div class="row">
+                            <div class="col-md-12 youtube_frame">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/mHE3EZxlenU?autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoplay></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- // youtube -->
+
+                <!-- location -->
+                <section id="location">
+                    <div class="location_area">
+                        <div>
+                            <p>
+                                contact
+                            </p>
+                            <h4>
+                                도움이 필요하신가요?
+                            </h4>
+                            <p>
+                                미래를 위한 보안을 준비하신다면 저희와 상담하세요.
+                            </p>
+                            <p>
+                                <img src="images/index/mail.png" alt="메일">
+                                sales@softforum.com
+                            </p>
+                        </div>
+                        <div id="map_area">
+                            <div>
+                                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12650.092911704403!2d126.96043563955078!3d37.566295200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f332cb082b%3A0xe92b70ac420cf0a8!2z7ISc7Jq47Yq567OE7Iuc7LKt!5e0!3m2!1sko!2skr!4v1674721079205!5m2!1sko!2skr"  allowfullscreen=""  referrerpolicy="no-referrer-when-downgrade" ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- // location -->
+            </div>
+            <!-- // container area -->
+
+            <!-- footer area -->
+            <footer>
+                <div>
+                    <h5>
+                        Contact Us
+                    </h5>
+                    <p>
+                        <span>소프트포럼(주)</span>
+                        <span>대표자:정종갑</span>
+                        <span>사업자등록번호:387-86-02684</span>
+                        <br>
+                        <span>주소: 경기도 성남시 분당구 대왕판교로644번길 49 한컴타워 4층</span>
+                    </p>
+                </div>
+            </footer>
+            <!-- // footer area -->
+        </div>
+        <!-- // wrapper area -->
+    </main>
+    <!-- 솔루션 js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();  // 초기화 선언
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@media screen and (max-width:767px) {
+    /* 메인이미지 */
+    .laptop_slide {
+        display: none;
+    }
+    .mobile_slide {
+        display: block;
+    }
+    /* // 메인이미지 */
+
+    /* 보안 솔루션 */
+    .solutions_img  {
+        width: 767px;
+    }
+    .solutions_card_area {
+        height: 490px;
+        width: 55%;
+        margin: 0;
+        padding: 0;
+    }
+    .solutions_card {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .solutions_card_content > h4 {
+        font-size: 19px;
+    }
+    .solutions_card_content > p {
+        font-size: 12px;
+    }
+    /* // 보안 솔루션 */
+
+    /* introduction */
+    .location_area {
+        width: 100%;
+        margin: 0;
+        background-color: rgba(255,255,255,0.9);
+    }
+    
+    #introduction > div > div {
+        padding: 115px 0 0 0;
+        transform: translateX(0);
+    }
+
+    #introduction > div > div > h4 {
+        font-size: 28px;
+    }
+    #introduction > div > div > p {
+        font-size: 12px;
+    }
+    /* // introduction */
+
+    /* youtube */
+    #youtube {
+        padding-top: 80px;
+        padding-bottom: 10px;
+    }
+    .youtube_area {
+        width: 100%;
+        height: 300px;
+    }
+    .youtube_frame {
+        height: 430px;
+    }
+    iframe {
+        height: 50%;
+    }
+    /* // youtube */
+}
